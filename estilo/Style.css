@@ -8,10 +8,23 @@
 /* Cabeçalho */
 header{
     background-color: red;
-    color: white;
     padding: 10px;
-    text-align: center;
     border-bottom: 3px solid rgb(201, 3, 3);
+}
+
+h1{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    margin-bottom: -10px;
+    
+}
+
+.Jumpman{
+    width: 10%;
+    height: 70px;
+    margin-top: -50px;
+    margin-bottom: -10px;
 }
 
 /* Grid de Produtos */
