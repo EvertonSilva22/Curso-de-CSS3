@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+/* Cabeçalho */
+header{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-bottom: 3px solid rgb(201, 3, 3);
+}
+
+/* Grid de Produtos */
+.container{
+    background-color: #eee;
+    min-height: 60vh;
+    padding: 30px;
+}
+
+.products-container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card{
+    width: 31%;
+    display: inline-block;
+    margin: 1% 1%;
+    padding: 15px;
+}
+
+img{
+    height: 235px;
+    width: 100%;
+}
+/* Footer */
+footer{
+    text-align: center;
+    background-color: red;
+    color: white;
+    border-top: 3px solid rgb(201, 3, 3);
+    padding: 30px;
+}
